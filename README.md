@@ -8,13 +8,23 @@ Be aware that SSG and SSR have different implications for data fetching and depl
 
 ## 🚀 Quick Start
 
-1. Install dependencies:
+1. Set up environment variables in the `sitecore-rendering` folder:
+
+   Your application requires certain environment variables for Sitecore integration. In the `sitecore-rendering` directory, create a `.env` file. You can use the provided `.env.container.example` as a starting point:
+
+   ```bash
+   cd sitecore-rendering
+   cp .env.container.example .env
+   # Edit .env as needed to provide your configuration values
+   ```
+
+2. Install dependencies:
 
    ```bash
    npm i
    ```
 
-2. Start the development server:
+3. Start the development server:
 
    ```bash
    npm run dev
