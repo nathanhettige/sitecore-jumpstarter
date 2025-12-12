@@ -4,6 +4,10 @@
 This project was generated using [`npx create-content-sdk-app`](https://www.npmjs.com/package/@sitecore-content-sdk/cli) with the **SSG (Static Site Generation)** method, **not** SSR (Server-Side Rendering).
 Be aware that SSG and SSR have different implications for data fetching and deployment.
 
+> **Template Maintenance Notice:**
+This template is **not updated regularly**. For projects that require up-to-date dependencies and features, it's recommended to create a new `content-sdk-app` inside your app folder using
+[`npx create-content-sdk-app`](https://www.npmjs.com/package/@sitecore-content-sdk/cli).
+This ensures you start with the latest versions and best practices.
 
 
 ## 🚀 Quick Start
