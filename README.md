@@ -1,31 +1,30 @@
-# shadcn/ui monorepo template
+# Sitecore + Shadcn + Storybook template
 
-This template is for creating a monorepo with shadcn/ui.
+> **Important Note:**
+This project was generated using [`npx create-content-sdk-app`](https://www.npmjs.com/package/@sitecore-content-sdk/cli) with the **SSG (Static Site Generation)** method, **not** SSR (Server-Side Rendering).
+Be aware that SSG and SSR have different implications for data fetching and deployment.
 
-## Usage
 
-```bash
-npx shadcn@latest init
-```
 
-## Adding components
+## 🚀 Quick Start
 
-To add components to your app, run the following command at the root of your `web` app:
+1. Install dependencies:
 
-```bash
-npx shadcn@latest add button -c apps/web
-```
+   ```bash
+   npm i
+   ```
 
-This will place the ui components in the `packages/ui/src/components` directory.
+2. Start the development server:
 
-## Tailwind
+   ```bash
+   npm run dev
+   ```
 
-Your `tailwind.config.ts` and `globals.css` are already set up to use the components from the `ui` package.
+The app will be available at [http://localhost:3000](http://localhost:3000) by default.
 
-## Using components
+The Storybook will be available at [http://localhost:6006](http://localhost:6006) by default.
 
-To use the components in your app, import them from the `ui` package.
 
-```tsx
-import { Button } from "@workspace/ui/components/button"
-```
+
+
+
